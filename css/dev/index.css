@@ -1020,7 +1020,7 @@ body {
     justify-content: center;
     align-items: flex-end;
     padding: 7.5rem 1.5625rem 0 0;
-    row-gap: 4.6875rem;
+    row-gap: 4.6875rem !important;
     column-gap: 0;
     font-size: 1.25rem;
     text-align: end;
@@ -1166,7 +1166,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    row-gap: 4.6875rem;
+    row-gap: 4.6875rem !important;
     column-gap: 0;
     padding-top: 7.5rem;
   }

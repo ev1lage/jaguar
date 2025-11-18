@@ -5333,7 +5333,11 @@ document.querySelectorAll("[data-scroll]").forEach((btn2) => {
     smoothScroll(this.dataset.scroll);
   });
 });
-const player = new Plyr("video", { captions: { active: true } });
+const player = new Plyr("video", {
+  captions: { active: true },
+  fullscreen: { enabled: false }
+  // запрет фулскрина
+});
 window.player = player;
 const btn = document.querySelector(".page__scroll-to-top");
 window.addEventListener("scroll", () => {
